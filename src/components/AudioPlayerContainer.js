@@ -2,9 +2,9 @@ import {connect} from 'react-redux';
 import {
   mapDispatchToAudioPlayerProps,
   mapStateToAudioPlayerProps
-} from '../../../src/util/redux'
+} from '../util/redux'
 
-import AudioPlayer from '../../../src/components/AudioPlayer'
+import AudioPlayer from './AudioPlayer'
 
 const AudioPlayerContainer = connect(mapStateToAudioPlayerProps, mapDispatchToAudioPlayerProps)(AudioPlayer)
 

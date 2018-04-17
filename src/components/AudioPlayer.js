@@ -157,7 +157,7 @@ class AudioPlayer extends Component {
     })
   }
   render(){
-    console.info('RENDER');
+    console.info('RENDER', this.props);
     return(
       <div align="center">
       </div>

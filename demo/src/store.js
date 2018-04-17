@@ -1,5 +1,5 @@
 import {createStore, applyMiddleware, compose} from 'redux'
-import rootReducer from "../../src/reducers"
+import rootReducer from "./reducers"
 
 const middlewares = [];
 
