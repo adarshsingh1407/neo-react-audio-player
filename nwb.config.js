@@ -5,7 +5,9 @@ module.exports = {
     umd: {
       global: 'neo-react-audio-player',
       externals: {
-        react: 'React'
+        'react': 'React',
+        'react-redux': 'ReactRedux',
+        'redux': 'redux'
       }
     }
   }
