@@ -1,7 +1,7 @@
 {
   "name": "neo-react-audio-player",
   "version": "1.0.0",
-  "description": "neo-react-audio-player React component",
+  "description": "Audio Player - React component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -27,11 +27,13 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2"
   },
-  "author": "",
+  "author": "Adarsh Singh",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/adarshsingh1407/neo-react-audio-player",
   "keywords": [
+    "audio-player",
+    "react-audio-player",
     "react-component"
   ]
 }
